@@ -47,21 +47,22 @@ body {
 }
 .link {
   letter-spacing: 1px;
-  padding: 1rem;
+  padding: 1rem 2rem;
   display: block;
-  background-color: #121214;
+
   text-align: center;
   text-decoration: none;
-  border-radius: 1px solid white;
   transition: ease all 0.3s;
-  color: rgb(255, 255, 255);
   font-size: 1.2rem;
-}
-.link:hover {
-  opacity: 0.9;
   background-color: #ffffff;
   color: #121214;
   border: 1px solid #121214;
+}
+.link:hover {
+  opacity: 0.9;
+  background-color: #121214;
+  border: 1px solid white;
+  color: rgb(255, 255, 255);
 }
 .card {
   padding: 10px;
